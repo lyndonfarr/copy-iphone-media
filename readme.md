@@ -1,5 +1,7 @@
 # Python script for copying iPhone media to desktop on Linux Ubuntu 22.04
 
+[Helpful Link](https://wuzhaojun.wordpress.com/2021/03/19/memo-of-backup-iphones-photos-in-ubuntu-20-04/)
+
 ### Requirements:
 #### Software:
  - python3
@@ -22,5 +24,3 @@ python3 /path/to/copyIphoneMedia.py /path/to/destination ~/iphone/DCIM/*/*
 fusermount -u ~/iphone
 idevicepair unpair
 ```
-
-[Helpful Link](https://wuzhaojun.wordpress.com/2021/03/19/memo-of-backup-iphones-photos-in-ubuntu-20-04/)
