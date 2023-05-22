@@ -24,3 +24,6 @@ python3 /path/to/copyIphoneMedia.py /path/to/destination ~/iphone/DCIM/*/*
 fusermount -u ~/iphone
 idevicepair unpair
 ```
+
+### Licences:
+This is NOT licensed. Use at your own risk.
