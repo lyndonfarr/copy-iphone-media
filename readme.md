@@ -27,3 +27,20 @@ idevicepair unpair
 
 ### Licences:
 This is NOT licensed. Use at your own risk.
+
+## BONUS: Copy and convert any .HEIC files to .jpg
+
+### Requirements:
+#### Packages:
+ - libheif-examples
+
+### Installing Requirements:
+```bash
+sudo apt-get install libheif-examples
+```
+
+### Converting .HEIC files:
+```bash
+cd /path/to/directory
+for file in *.HEIC; do heif-convert "$file" "${file/%.HEIC/.jpg}"; done
+```
